@@ -1,0 +1,33 @@
+{
+  "name": "meanlog",
+  "version": "1.0.0",
+  "description": "Article website",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node": "^11.11.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.19",
+    "node": "^11.11.0",
+    "typescript": "^3.3.3333"
+  },
+  "devDependencies": {
+    "debug": "^4.1.1",
+    "nodemon": "^1.18.10",
+    "tslint": "^5.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manavkothari3797/MeanBlog.git"
+  },
+  "author": "Manav Kothari <manavkothari3797@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/manavkothari3797/MeanBlog#readme"
+}
